@@ -11,7 +11,7 @@ export default function Index() {
       <header>
         <h1 className="mainTitle">codeObrero</h1>
         <h4>by Gino Pietrobon</h4>
-
+        
         <a href="#index">
           <button>¿De qué se trata esto?</button>
         </a>
@@ -43,7 +43,6 @@ export default function Index() {
           <i>saber y aprender</i> cosas nuevas cada día.
         </p>
         <img src="static/videojuego.png" alt="videojuego png" />
-
         <p>
           Quiero ser ese amigo que te dió un valioso consejo y unas palabras. Si
           realmente esto es lo que quieres y te gusta, generar esa <b>chispa</b>{" "}

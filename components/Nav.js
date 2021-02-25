@@ -7,7 +7,7 @@ const Nav = () => (
         className="logo"
         src="/static/logo.png"
         alt="logo code-obrero"
-        height="100"
+        height="80"
       />
     </Link>
 
