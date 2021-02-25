@@ -1,0 +1,19 @@
+{
+  "name": "code-obrero",
+  "version": "1.0.0",
+  "description": "it is a developer´s portal buildt with next and react.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "Gino Pietrobon",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.2.3",
+    "next": "^10.0.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
