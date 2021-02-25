@@ -11,10 +11,6 @@ const Nav = () => (
       />
     </Link>
 
-    <Link href="/">
-      <a>Home</a>
-    </Link>
-
     <span>•</span>
 
     <Link href="/primeros-pasos-dev">

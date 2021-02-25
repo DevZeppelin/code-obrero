@@ -13,37 +13,27 @@ export default function Index() {
         <h4>by Gino Pietrobon</h4>
 
         <a href="#index">
-          <button>¿Qué es esto?</button>
+          <button>¿De qué se trata esto?</button>
         </a>
       </header>
 
       <div className="container index" id="index">
-        <h2>¿Querés ser programador?</h2>
+        <img src="static/robot.png" alt="robot png" />
         <p>
-          Si tu respuesta es <strong>SI</strong>, si realmente lo deseas, puedo
-          ayudarte a <i>comenzar este camino</i> infinito.
+          <strong>codeObrero</strong> es un lugar creado para todos aquellos que están comenzando en el mundo de la programación. Aca encontrarás consejos, recomendaciones, ideas, y un poco de compañía para que tus primeros pasos en el mundo <i>dev</i> sean firmes y hacia adelante.
         </p>
-
-        <p>Mi nombre es Gino, soy obrero y padre de familia.</p>
-
+        <p>La pregunta del millón es...</p>
+        <h2>¿Realmente querés ser programador?</h2>
         <p>
-          Hace mucho quise empezar a estudiar programación pero no sabía qué
-          lenguaje aprender, esta <b>duda</b> me llevó a
-          <i>estancarme y perder el interés</i>.
+          Si tu respuesta es <strong>SI</strong> y si realmente lo deseas, un mundo mágico de oportunidades espera por vos. Dejame ayudarte a <i>comenzar este camino</i> infinito.
         </p>
-        <p>
-          Hasta que un día, hablando con un <strong>amigo programador</strong>,
-          con unas pocas palabras increíblemente
-          <i>me orientó, me ubicó y me ayudó a decidirme</i>. Ya no veía el
-          horizonte como algo incierto, sino que sabía hacia donde comenzar a
-          caminar.
-        </p>
+        <img src="static/dinosaurio.png" alt="dinosaurio png" />
 
         <p>
-          La idea de esta plataforma es dar ese <b>primer consejo</b>, esas
-          palabras de orientación, ese empujoncito débil que puede generar una
-          avalancha de
-          <i>pasión</i> y conocimiento.
+          Cuando quise comenzar a estudiar <strong>programación</strong> me sentí abrumado y desconsertado por tanta información. Me estanqué y sentía que necesitaba <i>algo o alguien</i> que me ayudara y acompañara en mis primeros pasos.
+        </p>
+        <p>
+          Al tiempo, una pequeña charla con un <i>developer</i> me sacó del agua. Sus palabras y consejos fueron tan valiosas para mí
         </p>
 
         <p>
@@ -52,6 +42,7 @@ export default function Index() {
           vida cambiará, porque una llama interior te hará querer{" "}
           <i>saber y aprender</i> cosas nuevas cada día.
         </p>
+        <img src="static/videojuego.png" alt="videojuego png" />
 
         <p>
           Quiero ser ese amigo que te dió un valioso consejo y unas palabras. Si
@@ -64,6 +55,20 @@ export default function Index() {
         </Link>
       </div>
       <style jsx>{`
+
+        * {
+          text-align: center
+        }
+
+        img {
+          text-align: center;
+          padding: 2em
+        }
+
+        h2 {
+          padding-top: 2em
+        }
+
         p,
         a,
         span {
