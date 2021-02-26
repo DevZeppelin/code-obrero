@@ -17,6 +17,7 @@ const Consejos = () => (
         ya que empezamos a entender las cosas que podemos lograr a través de
         este lenguaje.
       </p>
+      <span className="separator-joker">♥♦♣♠</span>
       <a href="#route">
           <button>Ruta aconsejada</button>
         </a>
@@ -92,7 +93,7 @@ const Consejos = () => (
         </li>
       </ul>
 
-      <span className="separator-joker">♥♦♣♠</span>
+      
       <img id="icon" src="static/casete.png" alt="casete png" />
       <h1 id="route">La ruta por la que me hubiera gustado comenzar:</h1>
       <h2>1</h2>

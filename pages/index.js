@@ -79,7 +79,7 @@ export default function Index() {
           display: flex;
           flex-direction: column;
           color: whitesmoke;
-          margin-bottom: 5em;
+          margin-bottom: 6em;
           text-align: center;
           z-index: 100;
         }
