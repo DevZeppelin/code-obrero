@@ -215,6 +215,10 @@ export default function Criptomonedas() {
             respecto a su valor inicial.
           </li>
         </ul>
+        <hr/>
+        <a href="#nav-container">
+          <button>Ir arriba!</button>
+        </a>
       </div>
       <style jsx>{`
         h1 {

@@ -14,7 +14,7 @@ const Nav = () => (
     <span>•</span>
 
     <Link href="/primeros-pasos-dev">
-      <a>Primeros pasos</a>
+      <a>1ros pasos</a>
     </Link>
 
     <span>•</span>
@@ -32,13 +32,13 @@ const Nav = () => (
     <span>•</span>
 
     <Link href="/criptomonedas">
-      <a>Cripto$</a>
+      <a>Cripto monedas</a>
     </Link>
 
     <span>•</span>
 
     <Link href="/tecnoticiero">
-      <a>Tecno Ticiero</a>
+      <a>Tec Noticiero</a>
     </Link>
 
     <span>•</span>
