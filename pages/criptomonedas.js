@@ -7,8 +7,9 @@ export default function Criptomonedas() {
       MainTitle="Criptomonedas"
       Footer={`Gino Pietrobon. Copyright ${new Date().getFullYear()}`}
     >
-      {" "}
+      
       <div className="container">
+      <img id="icon" src="static/arcade.png" alt="maquina de arcade png" />
         <p>
           Si sos un curioso de la tecnología y la programación, te invito a leer
           esta pequeña introducción al mundo cripto.
@@ -40,9 +41,9 @@ export default function Criptomonedas() {
           </a>
         </button>
 
-        <p>
-          <b>En resumen:</b>
-        </p>
+        
+          <h2>En resumen:</h2>
+        
         <p>
           Bitcoin es una tecnología en donde todas las tranferencias de esta
           moneda quedan grabadas en una “Blockchain”, que sería como una base de
@@ -68,6 +69,7 @@ export default function Criptomonedas() {
           que nos permiten tener la custodia de nuestras llaves privadas (quien
           tiene las llaves criptográficas tiene el poder de la moneda).
         </p>
+        <img id="icon" src="static/dinosaurio.png" alt="dinosaurio png" />
         <h1>Recursos útiles</h1>
         <div className="recursos-utiles">
           <article>
@@ -120,6 +122,7 @@ export default function Criptomonedas() {
           </article>
         </div>
 
+        <img id="icon" src="static/casete.png" alt="casete png" />
         <h1>Preguntas frecuentes</h1>
         <h3>¿Esta moneda tiene inflación?</h3>
         <p>
@@ -173,6 +176,7 @@ export default function Criptomonedas() {
           estudies las empresas y proyectos, y sea tu decisión invertir en tal y
           cuál proyecto.
         </p>
+        <img id="icon" src="static/gafas.png" alt="gafas png" />
         <h1>Altcoins</h1>
         <p>
           Conociendo lo básico de Bitcoin podemos hablar de algunas de las
@@ -214,7 +218,9 @@ export default function Criptomonedas() {
       </div>
       <style jsx>{`
         h1 {
-          font-size: 2em;
+          font-size: 2.6em;
+          padding-top: 1.8;
+          padding-bottom: 1.1em
         }
 
         button.main {
@@ -238,7 +244,8 @@ export default function Criptomonedas() {
         }
 
         .recursos-utiles article {
-          padding: 40px;
+          padding: 10px;
+          text-align: center
         }
       `}</style>
     </Layout>

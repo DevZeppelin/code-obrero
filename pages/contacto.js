@@ -7,6 +7,7 @@ export default function Contacto() {
       Footer={`Gino Pietrobon. Copyright ${new Date().getFullYear()}`}
     >
       <div className="container">
+      <img id="icon" src="static/telefono.png" alt="telefono png" />
         <div className="contacto-main">
           <p>
             <b>Mail: </b>{" "}

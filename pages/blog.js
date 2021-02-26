@@ -8,6 +8,7 @@ export default function Blog() {
       Footer={`Gino Pietrobon. Copyright ${new Date().getFullYear()}`}
     >
       <div className="container">
+      <img id="icon" src="static/dinosaurio.png" alt="dinosaurio png" />
         <div className="side-nav">
           <ul className="blog-list">
             <a>
@@ -141,13 +142,21 @@ export default function Blog() {
         .side-nav ul {
           list-style: none;
           margin: 0;
-          padding: 0;
+          padding: 0;          
         }
 
         .blog-list li:hover {
           font-weight: bolder;
           text-decoration: underline;
           color: var(--violet-sky);
+        }
+
+        .container {
+          width: 92%
+        }
+
+        li {
+          font-size: 1.1em
         }
       `}</style>
     </Layout>

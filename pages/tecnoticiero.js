@@ -29,22 +29,51 @@ export default function News({ news }) {
     Router.push(`/tecnoticiero/?searchTerm=${text}/#notice-position`);
     //en ${} estaba searchQuery pero declare como constante text y coolMsg = value, entonces ya puedo utilizar "text" y "coolMsg" en Router y los input
   };
-
-  const searchForm = () => (
+  const searchFormCoolMsg = () => (
     <form onSubmit={handleSubmit}>
-      <p>(Para que veas la fluidez de ésta página escribe lo que sea aquí:)</p>
+      <p>&#9889; <b>¡Esta página es súper rápida!</b> ¡Mirá este pequeño truco! Cuando escribís algo en este cuadro de texto se ve reflejado inmediatamente en el documento &#9889;</p>
+      <div className="cool">{coolMsg}</div>
       <input
         type="text"
-        placeholder="Escribe algo..."
+        placeholder="Tus letras en tiempo real"
         onChange={handleChange("coolMsg")}
         className="input-tec"
       />
-      <span>{coolMsg}</span>
+      <style jsx>{`
+        form {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
 
+        form input {
+          margin: 30px;
+          height: 48px;
+          width: 350px;
+          font-size: x-large;
+        }
+
+        form button {
+          margin-top: 0.75em;
+        }
+
+        .cool {
+          font-family: "Sofia", cursive;
+          font-size: 3em;
+          font-weight: 600;
+          padding: 1em;
+          color: var(--coral-sky);
+          
+        }
+      `}</style>
+    </form>    
+  )
+  const searchFormNews = () => (
+<form onSubmit={handleSubmit}>
       <h2>Buscador de noticias de Hacker News (inglés)</h2>
       <p>
-        Escribe la tecnología o tema que quieras buscar. Ej. Bitcoin,
-        Javascript, Linux, Dolar, etc.
+       ¿De qué tema queres tener <b>noticias</b>?
       </p>
       <input
         className="input-tec"
@@ -70,13 +99,7 @@ export default function News({ news }) {
 
         form button {
           margin-top: 0.75em;
-        }
-
-        span {
-          font-size: x-large;
-          font-weight: 600;
-          color: var(--violet-sky);
-        }
+              }
       `}</style>
     </form>
   );
@@ -91,7 +114,8 @@ export default function News({ news }) {
     >
       <div>
         <div className="container">
-          {searchForm()}
+        <img id="icon" src="static/tv.png" alt="tv png" />
+          {searchFormNews()}
           <hr />
 
           {news.map((n, i) => (
@@ -104,14 +128,19 @@ export default function News({ news }) {
               {n.created_at.substring(0, 4)})
             </p>
           ))}
+          {searchFormCoolMsg()}
         </div>
+        <style jsx>{`
+          a {
+           display: flex;
+           text-align: left
+          }
+          `}</style>
       </div>
-      <style jsx>{`
-        a {
-          display: flex;
-          justify-content: flex-start;
-        }
-      `}</style>
+      
+      <a href="#nav-container">
+          <button>Ir arriba!</button>
+        </a>
     </Layout>
   );
 }

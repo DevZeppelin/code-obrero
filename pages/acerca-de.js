@@ -7,6 +7,7 @@ const AcercaDe = () => (
     Footer={`Gino Pietrobon. Copyright ${new Date().getFullYear()}`}
   >
     <div className="container">
+    <img id="icon" src="static/arco-iris.png" alt="arcoiris png" />
       <p>
         Mi nombre es Gino Pietrobon, soy de Argentina. En noviembre de 2019 comencé a estudiar programación (Javascript), pero no fue fácil comenzar porque no encontraba un hilo coherente que me asegurara que estaba transitando el camino correcto. Fue hablando con un amigo programador cuando comprendí un poco el contexto de este mundo y sus consejos me ayudaron mucho para podr empezar.
         

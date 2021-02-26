@@ -8,6 +8,15 @@ const Consejos = () => (
     Footer={`Gino Pietrobon. Copyright ${new Date().getFullYear()}`}
   >
     <div className="container">
+    <img id="icon" src="static/palanca.png" alt="palanca png" />
+      <p>
+        Entonces mi primer consejo es: Empieza aprendiendo Javascript. Mi
+        experiencia personal fue muy buena ya que con muy poco podía hacer
+        aplicaciones web sencillas y poderosas. Desde cualquier navegador puedes
+        tocar código y ver como suceden los cambios. Todo esto es muy práctico
+        ya que empezamos a entender las cosas que podemos lograr a través de
+        este lenguaje.
+      </p>
       <ul>
         <li>
           Consumir entretenimiento en inglés: Si ves series en español, ¡Ponle
@@ -80,7 +89,7 @@ const Consejos = () => (
       </ul>
 
       <span className="separator-joker">♥♦♣♠</span>
-
+      <img id="icon" src="static/casete.png" alt="casete png" />
       <h1>La ruta por la que me hubiera gustado comenzar:</h1>
       <h2>1</h2>
 
@@ -173,6 +182,10 @@ const Consejos = () => (
           YouTube
         </a>
       </button>
+      <hr/>
+        <a href="#nav-container">
+          <button>Ir arriba!</button>
+        </a>
     </div>
   </Layout>
 );

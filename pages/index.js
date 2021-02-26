@@ -18,7 +18,7 @@ export default function Index() {
       </header>
 
       <div className="container index" id="index">
-        <img src="static/robot.png" alt="robot png" />
+        <img id="icon" src="static/robot.png" alt="robot png" />
         <p>
           <strong>codeObrero</strong> es un lugar creado para todos aquellos que están comenzando en el mundo de la programación. Aca encontrarás consejos, recomendaciones, ideas, y un poco de compañía para que tus primeros pasos en el mundo <i>dev</i> sean firmes y hacia adelante.
         </p>
@@ -27,13 +27,13 @@ export default function Index() {
         <p>
           Si tu respuesta es <strong>SI</strong> y si realmente lo deseas, un mundo mágico de oportunidades espera por vos. Dejame ayudarte a <i>comenzar este camino</i> infinito.
         </p>
-        <img src="static/dinosaurio.png" alt="dinosaurio png" />
+        <img id="icon" src="static/dinosaurio.png" alt="dinosaurio png" />
 
         <p>
           Cuando quise comenzar a estudiar <strong>programación</strong> me sentí abrumado y desconsertado por tanta información. Me estanqué y sentía que necesitaba <i>algo o alguien</i> que me ayudara y acompañara en mis primeros pasos.
         </p>
         <p>
-          Al tiempo, una pequeña charla con un <i>developer</i> me sacó del agua. Sus palabras y consejos fueron tan valiosas para mí
+          Al tiempo, una pequeña charla con un <i>developer</i> me sacó del agua. Sus palabras y consejos fueron tan valiosas para mí que hoy me hacen crear este proyecto. 
         </p>
 
         <p>
@@ -42,7 +42,7 @@ export default function Index() {
           vida cambiará, porque una llama interior te hará querer{" "}
           <i>saber y aprender</i> cosas nuevas cada día.
         </p>
-        <img src="static/videojuego.png" alt="videojuego png" />
+        <img id="icon" src="static/videojuego.png" alt="videojuego png" />
         <p>
           Quiero ser ese amigo que te dió un valioso consejo y unas palabras. Si
           realmente esto es lo que quieres y te gusta, generar esa <b>chispa</b>{" "}
@@ -59,10 +59,7 @@ export default function Index() {
           text-align: center
         }
 
-        img {
-          text-align: center;
-          padding: 2em
-        }
+       
 
         h2 {
           padding-top: 2em

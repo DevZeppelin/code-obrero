@@ -24,10 +24,17 @@ body {
   display: block;
   max-width: 2400px;
   width: 80%;
-  
+  text-align: justify;
   align-items: center;
   justify-content: center;
   margin: auto;
+}
+
+#icon {
+  display: block;
+  margin: auto;
+  padding-top: 2em;
+  padding-bottom: 1.5em;
 }
 
 .main-index {
@@ -44,7 +51,7 @@ h1 {
   font-family: "Sofia", cursive;
   text-align: center;
   margin-top: 1em;
-  padding-bottom: 20px;
+  padding-bottom: 5px;
   padding-left: 6px;
   font-size: 2.5em;
 }
@@ -84,6 +91,7 @@ li {
   padding: 5px 40px;
   margin: 0.5em;
   font-size: 1.2em;
+  color: var(--background);
 }
 
 button {
@@ -107,6 +115,13 @@ button {
   color: rgb(194, 194, 194);
 }
 
+ul, ol{
+  padding-inline-start: 20px;
+  padding: 0.1em;
+}
+
+
+
 @media screen and (max-width: 700px) {
   body {
     width: 100%;
@@ -116,6 +131,9 @@ button {
     font-size: 2.7em;
   }
 
+  h2 {
+    font-size: 2.3em;
+  }
   p {
     font-size: 1.6em;
   }
@@ -123,5 +141,4 @@ button {
   li {
     font-size: 1.5em;
   }
-
 }

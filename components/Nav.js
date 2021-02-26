@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const Nav = () => (
-  <div className={"nav-container"}>
+  <div className="nav-container" id="nav-container">
     <Link href="/">
       <img
         className="logo"
@@ -14,13 +14,13 @@ const Nav = () => (
     <span>•</span>
 
     <Link href="/primeros-pasos-dev">
-      <a>Start</a>
+      <a>Primeros pasos</a>
     </Link>
 
     <span>•</span>
 
     <Link href="/consejos">
-      <a>Consejos</a>
+      <a>Consejos y Ruta</a>
     </Link>
 
     <span>•</span>

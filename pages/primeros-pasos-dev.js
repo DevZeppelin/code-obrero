@@ -3,10 +3,19 @@ import Link from "next/link";
 
 const PrimerosPasosDev = () => (
   <Layout
-    MainTitle="Primeros pasos para convertirte en programador"
+    MainTitle="Mis primeros pasos en programación"
     Footer={`Gino Pietrobon. Copyright ${new Date().getFullYear()}`}
   >
-    <div className="container">
+    <div className="container" id="top">
+    <img id="icon" src="static/diamante.png" alt="diamante png" />
+      <nav>
+        <a href="#firstLanguages">
+          <button>Mis primeros lenguajes</button>
+        </a>
+        <a href="#frecuentQuestions">
+          <button>Preguntas frecuentes</button>
+        </a>
+      </nav>
       <p>
         Cuando comencé me sentía en una jungla. Muchos senderos en los que no
         podía ver coon claridad. Quise hacer una aplicación, busqué tutoriales,
@@ -28,32 +37,49 @@ const PrimerosPasosDev = () => (
       </p>
       <p>
         Una vez inicié este camino ya nunca más me alejé de mis objetivos y de
-        mi horizonte. Llevo dos años estudiando como puedo y aprendiendo más y
-        más sobre el fascinante mundo tecnológico.
+        mi horizonte, aunque muchas veces me he desmotivado y son momentos en
+        que las palabras de otros programadores me devolvían al sendero. Hoy
+        llevo dos años siento parte de este mundo y solo puedo decirte que es
+        maravilloso. Estar al día con el mundo tecnológico y saber usar las
+        herramientas adecuadas te da el poder de construir plataformas,
+        aplicaciones y programas que solucionen diferentes problemas.
+      </p>
+
+      <hr />
+      <img id="icon" src="static/flamenco.png" alt="flamenco png" />
+      <h2 id="firstLanguages">Mis primeros lenguajes</h2>
+      <p>
+        <b>¿Por donde empezar?</b>
+      </p>
+      <p>
+        Si pensamos una aplicación (o página) web como si fuera un cuerpo
+        humano:
+      </p>
+      <ul>
+        <li>
+          <b>HTML</b> es el esqueleto, la estructura.
+        </li>
+        <li>
+          <b>CSS</b> es la piel, los colores, el diseño.
+        </li>
+        <li>
+          <b>JAVASCRIPT</b> son los músculos, la mente, las conexiones
+          neuronales.
+        </li>
+      </ul>
+
+      <p>
+        Dominando estas tres tecnología tendremos el poder de hacer páginas web,
+        plataformas web, aplicaciones de celular, y muchas otras cosas más.
       </p>
 
       <p>
-        Entonces mi primer consejo es: Empieza aprendiendo Javascript. Mi
-        experiencia personal fue muy buena ya que con muy poco podía hacer
-        aplicaciones web sencillas y poderosas. Desde cualquier navegador puedes
-        tocar código y ver como suceden los cambios. Todo esto es muy práctico
-        ya que empezamos a entender las cosas que podemos lograr a través de
-        este lenguaje.
-      </p>
-
-      <p>
-        <b>Importante</b>: En este comienzo debemos también aprender lo básico
-        de HTML (Lenguaje de etiquetas y maquetación de una página web) y CSS
-        (Estilos, colores, fuentes y todo lo visual de la página). Si la
-        programación fuera un ser humano: HTML es el esqueleto, CSS es la piel y
-        Javascript es los músculos.
-      </p>
-
-      <p>
-        <b>¿Por qué Javascript?</b> Porque es amigable y poderoso, y
-        encontraremos muchísimas comunidades capaces de respaldarnos y
-        acompañarnos en este proceso de aprendizaje. Aprendiendo JS + HTML + CSS
-        tendrás el poder de desarrolar:
+        <b>¿Por qué Javascript?</b> Es mi simple consejo, porque a mi me volció
+        loco. Pero diferentes lenguajes pueden servir para diferentes áreas o
+        gustos. Mi amigo <i>developer</i> me dijo que una vez que sabés
+        programar, migrar a otro lenguaje o tecnología es cuestión de unos 3
+        meses, porque teniendo las bases sólidas solo cambiarías la forma de
+        escribir pero no la <strong>lógica</strong>
       </p>
       <ul>
         <li>Páginas web (desarrollo front-end)</li>
@@ -62,78 +88,97 @@ const PrimerosPasosDev = () => (
         <li>Aplicaciones móviles (React Native)</li>
         <li>Videojuegos (usando librerías de JS)</li>
       </ul>
-      <a href="https://www.youtube.com/watch?v=qY2JD78kShQ&t=268s" target="_blank">
-        <button>¿Qué se puede hacer con Javascript?</button>
+      <a
+        href="https://www.youtube.com/watch?v=qY2JD78kShQ&t=268s"
+        target="_blank"
+      >
+        <button>¿Qué se puede hacer con Javascript? (VIDEO)</button>
       </a>
-      
+
+      <img id="icon" src="static/computadora.png" alt="computadora png" />
+
+      <h2>Frameworks</h2>
+      <p>
+        Con <b>HTML + CSS + JS</b> podremos hacer hermosas páginas web, pero una
+        vez completada esta fase de aprendizaje pasaremos a un nivel superior.
+        Aprender un <b>Framework</b>. <b>¿Y qué es esto?</b> Es un entorno de
+        trabajo que provee a los desarrolladores herramientas probadas y
+        testeadas para la creación de aplicaciones interactivas y escalables.
+      </p>
 
       <p>
-        El mercado laboral es enorme y además si tenemos buenas ideas, JS nos
-        permitirá materializarlas en una página o proyecto web. Javascript crece
-        con el tiempo respaldado por miles de programadores que trabajan en
-        mejorarlo y actualizarlo. Hoy existen frameworks construídos para dar
-        más poder, funcionabilidad y escalabilidad a estas tecnologías. Una vez
-        aprendidos JS + HTML + CSS, podemos encarar uno de estos:
+        Los <b>frameworks</b> más famosos son: React, Angular, Vue y Svelte. Lo
+        importante es saber que dominando las tres tecnologìas que te recomiendo
+        te será fácil utilizar una de éstas poderosísimas herramientas
       </p>
-      <ul>
-        <li>React JS (librería JS desarrollada por Facebook)</li>
-        <li>Angular JS (framework desarrollado por Google)</li>
-        <li>Vue JS (framework muy querido por los desarrolladores )</li>
-        <li>Esbelt (framework màs reciente de JS)</li>
-      </ul>
-
-      <p>
-        <b>¿Qué es un framework?</b> Es un entorno de trabajo que provee a los
-        desarrolladores herramientas probadas y testeadas para la creación de
-        aplicaciones interactivas y escalables.
-      </p>
-      <p>En conclusión, para mi criterio, tus primeros pasos deben ser:</p>
-      <ul>
+      <img id="icon" src="static/rodillos.png" alt="rodillos png" />
+      <h2>Conclusión</h2>
+      <ol>
         <li>
           Comenzar a estudiar y aprender profundamente el lenguaje de Javascript
         </li>
         <li>
           Aprender HTML básico (HyperText Markup Language, es decir, Lenguaje de
-          Formato de Documentos de Hipertexto): Es un lenguaje de etiquetas que
-          se utiliza para armar la estructura de tu página (maquetado).
+          Formato de Documentos de Hipertexto): Es un lenguaje que utilizando etiquetas podrás armar la estructura de tu página (maquetado).
         </li>
         <li>
           Aprender CSS básico (Cascading Style Sheets, es decir, hojas de estilo
           en cascada): Este lenguaje sirve para dar estilo, colores y diseño a
           nuestra página o aplicación. Si te gusta el diseño te va a encantar,
           sino también es necesario aprenderlo porque éste definirá el formato y
-          la belleza de nuestros trabajos.
+          la belleza de tus trabajos.
         </li>
         <li>
-          Luego encarar un Framework. Mi favorito es React, luego te comentaré
-          más de sus ventajas, pero por ejemplo, sabiendo React haces
-          aplicaciones web y existe React NAtive que nos permite casi de la
-          misma forma adaptar esa aplicación web a una app movil. Interesante,
-          ¿no?
+          <b>Una vez entendiendo estos tres</b> podría decirse que estamos listos para ser programadores realmente poderosos. A través de un <b>Framework</b> como <strong>React.js</strong> podremos construir cosas verdaderamente grandes, escalables, optimizadas y muy poderosas. 
         </li>
-      </ul>
+      </ol>
 
       <p>
-        Teniendo definida la dirección donde te llevarán tus pasos, paso a
-        compartirte algunos consejos que me hubiera haber escuchado en esta
-        instancia inicial.
+        Todo a su debido tiempo. Lo importante es entender que si logramos que las bases de nuestro conocimiento sean sólidas, podremos edificar algo grande sobre estos cimientos. Ahora podés pasar a la parte de <b>consejos</b> o leer algunas de las preguntas frecuentes de los <i>new developers</i>.
       </p>
 
       <Link href="/consejos">
         <button>Consejos y ruta</button>
       </Link>
       <hr />
-
-      <h1>Preguntas frecuentes:</h1>
+      <img id="icon" src="static/disco-lp.png" alt="disco long play png" />
+      <h1 id="frecuentQuestions">Preguntas frecuentes:</h1>
       <ul>
         <li>
-          <b>¿Hay que tener bases de tecnología para ser programador?</b> Mientras más sepas y aprendas de tecnología e informática significará una ventaja en la competividad de los emrcados laborales. Realmente hoy es necesario apra casi todo aprender informática y lo más que podamos acerca de tecnología.
+          <b>¿Hay que tener bases de tecnología para ser programador?</b><br /><br />
+          
+            Mientras más sepas y aprendas de tecnología e informática significará
+            una ventaja en la competividad de los emrcados laborales. Realmente
+            hoy es necesario apra casi todo aprender informática y lo más que
+            podamos acerca de tecnología.
+         
         </li>
         <li>
-        <b>¿Qué tan difícil es conseguir un trabajo?</b> En este sector abundan las ofertas de puestos remotos con salarios abultados. Puedes tener suerte para conseguir uno, o no tanta, pero lo importante es que si no tienes experiencia, trabajes en un proyecto personal, un <i>portfolio</i> que puedas mostrar cuando los reclutadores quieran ver de lo que eres capaz.
-        </li>        
+          <b>¿Qué tan difícil es conseguir un trabajo?</b><br /><br />
+            En este sector
+            abundan las ofertas de puestos remotos con salarios abultados. Puedes
+            tener suerte para conseguir uno, o no tanta, pero lo importante es que
+            si no tienes experiencia, trabajes en un proyecto personal, un
+            <i>portfolio</i> que puedas mostrar cuando los reclutadores quieran
+            ver de lo que eres capaz.
+          
+        </li>
       </ul>
+      <a href="#nav-container">
+          <button>Ir arriba!</button>
+        </a>
     </div>
+    <style jsx>{`
+      nav {
+        display: flex;
+        justify-content: space-around ;
+        flex-direction: row;
+      }
+
+      nav button {
+        margin: 0.2em;
+      }
+    `}</style>
   </Layout>
 );
 
