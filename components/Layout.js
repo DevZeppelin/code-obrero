@@ -10,6 +10,12 @@ const Layout = ({ID, MainTitle, Footer, children }) => (
     <h4>{Footer}</h4>
     
     <style jsx global>{`
+    @import url("https://fonts.googleapis.com/css2?family=Sofia&display=swap");
+    @import url('https://fonts.googleapis.com/css2?family=Rokkitt&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+
+
     :root {
   --background: #00234b;
   --violet-sky: #561631;

@@ -4,18 +4,15 @@ import Document, { Head, Main, NextScript } from "next/document";
 class MyDocument extends Document {
   render() {
     /*const isMobile = useMediaQuery({ query: `(max-width: 760px)` });*/
-    
-    
-    
+
     return (
       <html lang="es">
-
-    <Head>
-        <meta
-          name="viewport"
-          content="width=device-width,minimum-scale=0.5,initial-scale=1"
-        />       
-    </Head>
+        <Head>
+          <meta
+            name="viewport"
+            content="width=device-width,minimum-scale=0.5,initial-scale=1"
+          />
+        </Head>
         <head>
           <meta charSet="UTF-8" />
           <meta
@@ -28,27 +25,8 @@ class MyDocument extends Document {
           />
           <meta name="author" content="Gino Pietrobon" />
 
-          <link rel="preconnect" href="https://fonts.gstatic.com" />
-          <link
-            href="https://fonts.googleapis.com/css2?family=Sofia&display=swap"
-            rel="stylesheet"
-          />
-          <link
-            href="https://fonts.googleapis.com/css2?family=Rokkitt&display=swap"
-            rel="stylesheet"
-          />
-          <link
-            href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap"
-            rel="stylesheet"
-          />
-          <link
-            href="https://fonts.googleapis.com/css2?family=Fruktur&display=swap"
-            rel="stylesheet"
-          />
-          
           <link rel="icon" href="/static/favicon.webp" />
           <title>codeObrero</title>
-            
         </head>
 
         <body>
