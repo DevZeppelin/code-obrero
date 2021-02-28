@@ -9,7 +9,18 @@ export default function Criptomonedas() {
     >
       
       <div className="container">
-      <img id="icon" src="static/arcade.png" alt="maquina de arcade png" />
+      <img className="icon" src="static/arcade.webp" alt="maquina de arcade png" />
+      <nav className="secondaryNav">
+        <a href="#usefulResources">
+          <button>Recursos útiles</button>
+        </a>
+        <a href="#frecuentQuestions">
+          <button>Preguntas frecuentes</button>
+        </a>
+        <a href="#altcoins">
+          <button>Altcoins</button>
+        </a>
+      </nav>
         <p>
           Si sos un curioso de la tecnología y la programación, te invito a leer
           esta pequeña introducción al mundo cripto.
@@ -41,7 +52,7 @@ export default function Criptomonedas() {
           </a>
         </button>
 
-        
+        <img className="icon" src="static/diamante.webp" alt="diamante png" />
           <h2>En resumen:</h2>
         
         <p>
@@ -69,7 +80,8 @@ export default function Criptomonedas() {
           que nos permiten tener la custodia de nuestras llaves privadas (quien
           tiene las llaves criptográficas tiene el poder de la moneda).
         </p>
-        <img id="icon" src="static/dinosaurio.png" alt="dinosaurio png" />
+        <hr/>
+        <img id="usefulResources" className="icon" src="static/dinosaurio.webp" alt="dinosaurio png" />
         <h1>Recursos útiles</h1>
         <div className="recursos-utiles">
           <article>
@@ -121,8 +133,8 @@ export default function Criptomonedas() {
             </p>
           </article>
         </div>
-
-        <img id="icon" src="static/casete.png" alt="casete png" />
+        <hr/>
+        <img id="frecuentQuestions" className="icon" src="static/casete.webp" alt="casete png" />
         <h1>Preguntas frecuentes</h1>
         <h3>¿Esta moneda tiene inflación?</h3>
         <p>
@@ -176,7 +188,8 @@ export default function Criptomonedas() {
           estudies las empresas y proyectos, y sea tu decisión invertir en tal y
           cuál proyecto.
         </p>
-        <img id="icon" src="static/gafas.png" alt="gafas png" />
+        <hr/>
+        <img id="altcoins" className="icon" src="static/gafas.webp" alt="gafas png" />
         <h1>Altcoins</h1>
         <p>
           Conociendo lo básico de Bitcoin podemos hablar de algunas de las

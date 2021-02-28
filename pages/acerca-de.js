@@ -7,7 +7,7 @@ const AcercaDe = () => (
     Footer={`Gino Pietrobon. Copyright ${new Date().getFullYear()}`}
   >
     <div className="container">
-    <img id="icon" src="static/arco-iris.png" alt="arcoiris png" />
+    <img className="icon" src="static/arco-iris.webp" alt="arcoiris png" />
       <p>
         Mi nombre es Gino Pietrobon, soy de Argentina. En noviembre de 2019 comencé a estudiar programación (Javascript), pero no fue fácil comenzar porque no encontraba un hilo coherente que me asegurara que estaba transitando el camino correcto. Fue hablando con un amigo programador cuando comprendí un poco el contexto de este mundo y sus consejos me ayudaron mucho para podr empezar.
         
@@ -19,6 +19,7 @@ const AcercaDe = () => (
       <p>
         Por eso propongo este medio para crear una comunidad de personas que sin importar su edad quieran ser programadores. El abanico de habilidades y tecnologías es tan grande que detectando las pasiones y gustos de las personas, es posible recomendarles la tecnología correcta que se amolde a sus virtudes y capacidades. No solo hablando de desarrollo frontend o backend, sino existen campos en UI, UX, diseño de imágenes o videos, marketing digital, redacción de textos, probar aplicaciones, etc.
       </p>
+      <img className="icon" src="static/robot.webp" alt="robot png" />
       <p>
         El mundo ha abierto vacantes remotas para casi todos los empleos y si las personas logran obtener un núcleo básico de habilidades tecnológicas podrán postularse a una amplia variedad de buenos y cómodos trabajos, pertenecer a equipos competitivos y explotar su capital intelectual volcado a proyectos grandiosos. 
       </p>

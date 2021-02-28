@@ -5,7 +5,7 @@ const Nav = () => (
     <Link href="/">
       <img
         className="logo"
-        src="/static/logo.png"
+        src="/static/logo.webp"
         alt="logo code-obrero"
         height="80"
       />
@@ -20,7 +20,7 @@ const Nav = () => (
     <span>•</span>
 
     <Link href="/consejos">
-      <a>Consejos y Ruta</a>
+      <a>Consejos</a>
     </Link>
 
     <span>•</span>
@@ -32,19 +32,19 @@ const Nav = () => (
     <span>•</span>
 
     <Link href="/criptomonedas">
-      <a>Cripto monedas</a>
+      <a>Criptos</a>
     </Link>
 
     <span>•</span>
 
     <Link href="/tecnoticiero">
-      <a>Tec Noticiero</a>
+      <a>News</a>
     </Link>
 
     <span>•</span>
 
     <Link href="/acerca-de">
-      <a>Sobre mi</a>
+      <a>About</a>
     </Link>
 
     <span>•</span>

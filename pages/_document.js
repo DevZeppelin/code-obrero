@@ -45,8 +45,8 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Fruktur&display=swap"
             rel="stylesheet"
           />
-          <link rel="stylesheet" type="text/css" href="/static/globals.css" />
-          <link rel="icon" href="/static/favicon.png" />
+          
+          <link rel="icon" href="/static/favicon.webp" />
           <title>codeObrero</title>
             
         </head>

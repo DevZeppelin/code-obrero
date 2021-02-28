@@ -3,24 +3,35 @@ import Link from "next/link";
 
 const Consejos = () => (
   <Layout
-    ID="Consejos"
-    MainTitle="Consejos para empezar a estudiar"
+    MainTitle="Consejos para iniciar y Preguntas frecuentes"
     Footer={`Gino Pietrobon. Copyright ${new Date().getFullYear()}`}
   >
     <div className="container">
-    <img id="icon" src="static/palanca.png" alt="palanca png" />
-      <p>
-        <b>Mi principal recomendación:</b> Empieza aprendiendo <strong>Javascript</strong>. Mi
-        experiencia personal fue muy buena ya que con muy poco podía hacer
-        aplicaciones web sencillas y poderosas. Desde cualquier navegador puedes
-        tocar código y ver como suceden los cambios. Todo esto es muy práctico
-        ya que empezamos a entender las cosas que podemos lograr a través de
-        este lenguaje.
-      </p>
-      <span className="separator-joker">♥♦♣♠</span>
-      <a href="#route">
-          <button>Ruta aconsejada</button>
+      <img className="icon" src="static/palanca.webp" alt="palanca png" />
+      <nav className="secondaryNav">
+        <a href="#advices">
+          <button>Consejos</button>
         </a>
+        <a href="#frecuentQuestions">
+          <button>Preguntas frecuentes</button>
+        </a>
+      </nav>
+      <p>
+        <b>Mi principal recomendación:</b></p>
+        <p>Empieza aprendiendo <strong>Javascript</strong>. Mi experiencia
+        personal fue muy buena ya que con muy poco podía hacer aplicaciones web
+        sencillas y poderosas. Desde cualquier navegador puedes tocar código y
+        ver como suceden los cambios. Todo esto es muy práctico ya que empezamos
+        a entender las cosas que podemos lograr a través de este lenguaje.
+      </p>
+
+      <hr />
+      <img
+        id="advices"
+        className="icon"
+        src="static/arcade.webp"
+        alt="arcade png"
+      />
       <h2>Consejos</h2>
       <ul>
         <li>
@@ -62,7 +73,7 @@ const Consejos = () => (
         </li>
       </ul>
 
-      <span className="separator-joker">♥♦♣♠</span>
+      <img className="icon" src="static/videojuego.webp" alt="videojuego png" />
       <h1>Importante</h1>
       <ul>
         <li>
@@ -93,104 +104,41 @@ const Consejos = () => (
         </li>
       </ul>
 
-      
-      <img id="icon" src="static/casete.png" alt="casete png" />
-      <h1 id="route">La ruta por la que me hubiera gustado comenzar:</h1>
-      <h2>1</h2>
-
-      <p>
-        En primer lugar te recomendaría hacer el curso gratuito de ED.team ya
-        que explica términos importatnes de manera fácil y digerible. Es corto y
-        de buena calidad. Esto nos dará los primeros conceptos e idea de lo que
-        es la programación
-      </p>
-      <p>
-        <b>Recomendación: </b> Busca una carpetita linda o un cuaderno y de
-        manera prolija andá tomando nota de lo que vas aprendiendo. Esto te va a
-        servir para repasar conceptos en cualquier momento en el que no estás
-        enfrente de la pantalla.
-      </p>
-      <button>
-        <a href="https://ed.team/cursos/programacion" target="_blank">
-          Curso de programación desde cero de ED.team (Gratis!)
-        </a>
-      </button>
       <hr />
-      <h2>2</h2>
-      <p>
-        En segundo lugar te recomiendo un curso, también gratuito, que nos dará
-        lo básico para poder hacer una página web, ayudándonos a familiarizarnos
-        con HTML y CSS. Una vez finalizado, utilizando esta estructura podremos
-        construir mucho e ir agregando y quitando cosas.
-      </p>
-      <button>
-        <a
-          href="https://www.udemy.com/course/diseno-web-desde-cero-para-principiantes-gratis/"
-          target="_blank"
-        >
-          Crear Una Página Web Desde Cero con HTML y CSS [2020] (Gratis!)
-        </a>
-      </button>
-      <hr />
-      <h2>3</h2>
-      <p>Instalar en tu celular una app llamada: SoloLearn.</p>
+      <img
+        id="frecuentQuestions"
+        className="icon"
+        src="static/casete.webp"
+        alt="casete png"
+      />
+      <h1>Preguntas frecuentes:</h1>
       <ul>
         <li>
-          Realizar el curso de JavaScript (o el lenguaje que hayas elegido para
-          empezar)
-        </li>
-        <li>Tomar apuntes de todos los conceptos que vamos viendo</li>
-        <li>
-          Ir despacio y una vez terminadas las lecciones meterse a los
-          comentarios y ver los comentarios mejores puntuados como complementan
-          el artículo visto.
-        </li>
-        <li>
-          Realizar desafíos a la comunidad (en JavaScript o HTML), a usuarios de
-          bajo nivel (nuevo en la app), para ir viendo el tipo de ejercicio con
-          el que nos podemos encontrar.
+          <b>¿Hay que tener bases de tecnología para ser programador?</b>
+          <br />
+          <br />
+          Mientras más sepas y aprendas de tecnología e informática significará
+          una ventaja en la competividad de los emrcados laborales. Realmente
+          hoy es necesario apra casi todo aprender informática y lo más que
+          podamos acerca de tecnología.
         </li>
         <li>
-          Los ejercicios que hicimos mal, aanotarlos en un apartado del
-          cuaderno, y a medida que vayamos avanzando en nuestro camino vamos a
-          notar que los vamos entendiendo mejor hasta que logramos resolverlo.
+          <b>¿Qué tan difícil es conseguir un trabajo?</b>
+          <br />
+          <br />
+          En este sector abundan las ofertas de puestos remotos con salarios
+          abultados. Puedes tener suerte para conseguir uno, o no tanta, pero lo
+          importante es que si no tienes experiencia, trabajes en un proyecto
+          personal, un
+          <i>portfolio</i> que puedas mostrar cuando los reclutadores quieran
+          ver de lo que eres capaz.
         </li>
       </ul>
 
-      <button>
-        <a href="https://www.sololearn.com/" target="_blank">
-          SoloLearn app! (Gratis!)
-        </a>
-      </button>
       <hr />
-      <h2>4</h2>
-      <p>
-        Buscar en YouTube programadores resolviendo ejercicios simples, y
-        analizar los algorítmos y la lógica usada para resolver dicho problema.
-        Indagar en YouTube videos explicativos, informativos, buscar algún
-        podcast de programación e intentar escucharlo cuando estamos haciendo
-        cosas cotidianas.
-      </p>
-      <p>
-        Cuidado: Cuando empezamos a saltar entre videos podemos comenzar a
-        desorientarnos al escuchar tanta cantidad de información y tecnologías
-        diferentes.
-      </p>
-      <p>
-        La idea de codeObrero es justamente ser un ancla, una puesta a tierra
-        para siempre poder volver a ubicarnos en el universo de la programación
-        sin perder el norte.
-      </p>
-
-      <button>
-        <a href="https://www.youtube.com/" target="_blank">
-          YouTube
-        </a>
-      </button>
-      <hr/>
-        <a href="#nav-container">
-          <button>Ir arriba!</button>
-        </a>
+      <a href="#nav-container">
+        <button>Ir arriba!</button>
+      </a>
     </div>
   </Layout>
 );

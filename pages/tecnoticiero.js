@@ -114,7 +114,7 @@ export default function News({ news }) {
     >
       <div>
         <div className="container">
-        <img id="icon" src="static/tv.png" alt="tv png" />
+        <img className="icon" src="static/tv.webp" alt="tv png" />
           {searchFormNews()}
           <hr />
 

@@ -8,7 +8,7 @@ export default function Blog() {
       Footer={`Gino Pietrobon. Copyright ${new Date().getFullYear()}`}
     >
       <div className="container">
-      <img id="icon" src="static/dinosaurio.png" alt="dinosaurio png" />
+      <img className="icon" src="static/dinosaurio.webp" alt="dinosaurio png" />
         <div className="side-nav">
           <ul className="blog-list">
             <a>
