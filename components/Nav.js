@@ -8,6 +8,7 @@ const Nav = () => (
         src="/static/logo.webp"
         alt="logo code-obrero"
         height="80"
+        width="80"
       />
     </Link>
 
