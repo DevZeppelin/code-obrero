@@ -9,11 +9,7 @@ const Layout = ({ID, MainTitle, Footer, children }) => (
     <hr className="hr" />
     <h4>{Footer}</h4>
     
-    <style jsx global>{`
-    @import url("https://fonts.googleapis.com/css2?family=Sofia&display=swap");
-    @import url('https://fonts.googleapis.com/css2?family=Rokkitt&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+    <style jsx global>{`   
 
 
     :root {
@@ -55,18 +51,6 @@ body {
   height: 128px;
   padding-top: 2em;
   padding-bottom: 1.5em;
-}
-
-.main-index {
-  background:
-     url(/static/index-img.webp)/* image */
-     top center / 100% 100%   /* position / size */
-     no-repeat                /* repeat */
-     fixed                    /* attachment */
-     padding-box              /* origin */
-     content-box              /* clip */
-     black;                     /* color */  
-  color: whitesmoke;
 }
 
 .hr {
@@ -131,9 +115,6 @@ button {
   font-weight: bold;
 }
 
-#main-index > .nav-container a {
-  color: rgb(194, 194, 194);
-}
 
 ul, ol{
   padding-inline-start: 20px;
@@ -153,16 +134,7 @@ ul, ol{
 
 
 @media screen and (max-width: 700px) {
-  .main-index {
-  background:
-     url(/static/index-img.webp)/* image */
-     top center / 150% 100%   /* position / size */
-     no-repeat                /* repeat */
-     fixed                    /* attachment */
-     padding-box              /* origin */
-     content-box;              /* clip */    
-  color: whitesmoke;
-}
+  
   body {
     width: 100%;
   }

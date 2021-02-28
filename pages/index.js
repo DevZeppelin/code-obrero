@@ -81,20 +81,9 @@ export default function Index() {
           padding-top: 2em
         }
 
-        p,
-        a,
-        span {
-          color: rgb(194, 194, 194);
-        }
-
-        header {
-          color: whitesmoke;
-        }
-
         header {
           display: flex;
-          flex-direction: column;
-          color: whitesmoke;
+          flex-direction: column;          
           margin-bottom: 6em;
           text-align: center;
           z-index: 100;
