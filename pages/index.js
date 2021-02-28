@@ -60,7 +60,7 @@ export default function Index() {
           tren hacia un futuro profesional y competitivo.
         </p>
         <p>
-          <b>Requisito principal:</b>Nunca dejar de aprender, no estancarse y
+          <b>Requisito principal:</b> Nunca dejar de aprender, no estancarse y
           conformarse con el conocimiento obtenido. En el mundo tecnológico todo
           cambia muy rápido y hay que estar preparados para surfear las olas del
           cambio. El objetivo es adquirir bases sólidas que nos ayudarán a tomar

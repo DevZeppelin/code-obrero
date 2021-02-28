@@ -51,13 +51,21 @@ body {
 .icon {
   display: block;
   margin: auto;
+  width: 128px;
+  height: 128px;
   padding-top: 2em;
   padding-bottom: 1.5em;
 }
 
 .main-index {
-  background: url(/static/index-img.jpg);
-  background-size: cover;
+  background:
+     url(/static/index-img.webp)/* image */
+     top center / 100% 100%   /* position / size */
+     no-repeat                /* repeat */
+     fixed                    /* attachment */
+     padding-box              /* origin */
+     content-box              /* clip */
+     black;                     /* color */  
   color: whitesmoke;
 }
 
@@ -145,6 +153,16 @@ ul, ol{
 
 
 @media screen and (max-width: 700px) {
+  .main-index {
+  background:
+     url(/static/index-img.webp)/* image */
+     top center / 150% 100%   /* position / size */
+     no-repeat                /* repeat */
+     fixed                    /* attachment */
+     padding-box              /* origin */
+     content-box;              /* clip */    
+  color: whitesmoke;
+}
   body {
     width: 100%;
   }
