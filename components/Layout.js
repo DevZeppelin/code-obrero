@@ -9,161 +9,168 @@ const Layout = ({ ID, MainTitle, Footer, children }) => (
     <hr className="hr" />
     <h4>{Footer}</h4>
 
-  <style jsx global>{`
-  :root {
-  --orange-light: rgba(242, 239, 159, 1);
-  --orange-hard: rgba(255, 141, 33, 1);
-  --orange-medium: rgba(252, 176, 69, 1);
-}
+    <style jsx global>{`
+      @import url("https://fonts.googleapis.com/css2?family=Sofia&display=swap");
 
-* {
-  font-family: "Quicksand", sans-serif;
-  margin: 0;
-}
+      @import url("https://fonts.googleapis.com/css2?family=Rokkitt&display=swap");
 
-html {
-  scroll-behavior: smooth;
-  width: fit-content;
-}
+      @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
 
-body {
-  background: rgb(242, 239, 159);
-  background: linear-gradient(
-    90deg,
-    var(--orange-light) 0%,
-    var(--orange-hard) 50%,
-    var(--orange-medium) 100%
-  );
-  width: 100vw;
-}
+      @import url("https://fonts.googleapis.com/css2?family=Fruktur&display=swap");
 
-.logo {
-    height: 80px;
-    width: 80px;
-    padding: 10px;
-    margin-left: 10px;
-}
+      :root {
+        --orange-light: rgba(242, 239, 159, 1);
+        --orange-hard: rgba(255, 141, 33, 1);
+        --orange-medium: rgba(252, 176, 69, 1);
+      }
 
-.container {
-  display: block;
-  max-width: 2400px;
-  width: 80%;
-  text-align: justify;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
-}
+      * {
+        font-family: "Quicksand", sans-serif;
+        margin: 0;
+      }
 
-.icon {
-  display: block;
-  margin: auto;
-  width: 128px;
-  height: 128px;  
-  padding-top: 2em;
-  padding-bottom: 1.5em;
-}
+      html {
+        scroll-behavior: smooth;
+        width: fit-content;
+      }
 
-.hr {
-  border-color: var(--orange-hard);
-}
+      body {
+        background: rgb(242, 239, 159);
+        background: linear-gradient(
+          90deg,
+          var(--orange-light) 0%,
+          var(--orange-hard) 50%,
+          var(--orange-medium) 100%
+        );
+        width: 100vw;
+      }
 
-h1 {
-  font-family: "Sofia", cursive;
-  text-align: center;
-  margin-top: 1em;
-  padding-bottom: 5px;
-  padding-left: 6px;
-  font-size: 2.5em;
-}
+      .logo {
+        height: 80px;
+        width: 80px;
+        padding: 10px;
+        margin-left: 10px;
+      }
 
-h2 {
-  text-align: center;
-  font-size: 2em;
-  margin: auto;
-  margin-top: 1em;
-}
+      .container {
+        display: block;
+        max-width: 2400px;
+        width: 80%;
+        text-align: justify;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+      }
 
-h3 {
-  font-size: 1.4em;
-  padding-top: 16px;
-}
+      .icon {
+        display: block;
+        margin: auto;
+        width: 128px;
+        height: 128px;
+        padding-top: 2em;
+        padding-bottom: 1.5em;
+      }
 
-a {
-  padding: 10px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 1.1em;
-  color: var(--background);
-}
+      .hr {
+        border-color: var(--orange-hard);
+      }
 
-p {
-  padding: 15px 10px;
-  font-size: 1.2em;
-  color: var(--background);
-}
+      h1 {
+        font-family: "Sofia", cursive;
+        text-align: center;
+        margin-top: 1em;
+        padding-bottom: 5px;
+        padding-left: 6px;
+        font-size: 2.5em;
+      }
 
-li {
-  padding: 5px 40px;
-  margin: 0.5em;
-  font-size: 1.2em;
-  color: var(--background);
-}
+      h2 {
+        text-align: center;
+        font-size: 2em;
+        margin: auto;
+        margin-top: 1em;
+      }
 
-button {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px;
-  font-size: 1.1em;
-  margin-top: 50px;
-  margin-bottom: 40px;
-  font-weight: bold;
-  border-radius: 15px;
-  background-color: var(--orange-light);
-}
+      h3 {
+        font-size: 1.4em;
+        padding-top: 16px;
+      }
 
-ul,
-ol {
-  padding-inline-start: 20px;
-  padding: 0.1em;
-}
+      a {
+        padding: 10px;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.1em;
+        color: var(--background);
+      }
 
-.secondaryNav {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-}
+      p {
+        padding: 15px 10px;
+        font-size: 1.2em;
+        color: var(--background);
+      }
 
-.secondaryNav button {
-  margin: 0.2em;
-}
+      li {
+        padding: 5px 40px;
+        margin: 0.5em;
+        font-size: 1.2em;
+        color: var(--background);
+      }
 
-@media screen and (max-width: 700px) {
-  body {
-    width: 100%;
-  }
+      button {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        font-size: 1.1em;
+        margin-top: 50px;
+        margin-bottom: 40px;
+        font-weight: bold;
+        border-radius: 15px;
+        background-color: var(--orange-light);
+      }
 
-  h1 {
-    font-size: 2.7em;
-  }
+      ul,
+      ol {
+        padding-inline-start: 20px;
+        padding: 0.1em;
+      }
 
-  h2 {
-    font-size: 2.3em;
-  }
-  h3 {
-    font-size: 1.9em;
-    text-align: left;
-  }
-  p {
-    font-size: 1.6em;
-  }
+      .secondaryNav {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+      }
 
-  li {
-    font-size: 1.5em;
-  }
-}
+      .secondaryNav button {
+        margin: 0.2em;
+      }
 
-    `}</style>  
+      @media screen and (max-width: 700px) {
+        body {
+          width: 100%;
+        }
+
+        h1 {
+          font-size: 2.7em;
+        }
+
+        h2 {
+          font-size: 2.3em;
+        }
+        h3 {
+          font-size: 1.9em;
+          text-align: left;
+        }
+        p {
+          font-size: 1.6em;
+        }
+
+        li {
+          font-size: 1.5em;
+        }
+      }
+    `}</style>
   </div>
 );
 
