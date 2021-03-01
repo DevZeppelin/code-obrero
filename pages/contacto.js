@@ -60,6 +60,7 @@ export default function Contacto() {
           flex-direction: row;
           justify-content: center;
           align-items: center;
+          padding-bottom: 2em
         }
 
         .contacto a {
