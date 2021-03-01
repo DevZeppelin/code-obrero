@@ -16,7 +16,24 @@ class MyDocument extends Document {
           <meta
             name="viewport"
             content="width=device-width,minimum-scale=0.5,initial-scale=1"
-          />          
+          /> 
+          <link
+            href="https://fonts.googleapis.com/css2?family=Sofia&display=swap"
+            rel="stylesheet"
+          />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Rokkitt&display=swap'"
+            rel="stylesheet"
+          />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap'"
+            rel="stylesheet"
+          />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Fruktur&display=swap'"
+            rel="stylesheet"
+          />
+   
         </Head>
         <head>
           <meta charSet="UTF-8" />

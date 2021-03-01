@@ -9,15 +9,7 @@ const Layout = ({ ID, MainTitle, Footer, children }) => (
     <hr className="hr" />
     <h4>{Footer}</h4>
 
-    <style jsx global>{`
-      @import url("https://fonts.googleapis.com/css2?family=Sofia&display=swap");
-
-      @import url("https://fonts.googleapis.com/css2?family=Rokkitt&display=swap");
-
-      @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
-
-      @import url("https://fonts.googleapis.com/css2?family=Fruktur&display=swap");
-
+    <style jsx global>{`      
       :root {
         --orange-light: rgba(242, 239, 159, 1);
         --orange-hard: rgba(255, 141, 33, 1);

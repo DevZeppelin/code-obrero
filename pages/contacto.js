@@ -13,32 +13,38 @@ export default function Contacto() {
           alt="videojuego png"
         />
         <div className="contacto-main">
-          <p>  
-          <h2>Mail: </h2> <a href="mailto:gino.b.pietrobon@gmail.com">
+          <h2>  
+         <a href="mailto:gino.b.pietrobon@gmail.com">
               gino.b.pietrobon@gmail.com
             </a>
-          </p>
-          <p>           
-            <h2>Redes: </h2>
-          </p>
+          </h2>
+          
           <div className="contactNetworks">
             <a
               href="https://api.whatsapp.com/send?phone=5492616708100"
               target="_blank"
             >
-              Whatsapp
+              <img src="../static/social/whatsapp.webp" alt="whatsapp logo"/>
             </a>
             <p>•</p>
             <a href="http://facebook.com/gini77o" target="_blank">
-              Facebook
+            <img src="../static/social/facebook.webp" alt="facebook logo"/>
             </a>
             <p>•</p>
             <a href="http://instagram.com/moonwatcher73" target="_blank">
-              Instagram
+            <img src="../static/social/instagram.webp" alt="instagram logo"/>
             </a>
             <p>•</p>
             <a href="http://twitter.com/moonwatcher73" target="_blank">
-              Twitter
+            <img src="../static/social/twitter.webp" alt="twitter logo"/>
+            </a>
+            <p>•</p>
+            <a href="http://github.com/devzeppelin" target="_blank">
+            <img src="../static/social/github.webp" alt="github logo"/>
+            </a>
+            <p>•</p>
+            <a href="https://www.linkedin.com/in/gino-pietrobon/" target="_blank">
+            <img src="../static/social/linkedin.webp" alt="linkedin logo"/>
             </a>
           </div>
         </div>
@@ -63,7 +69,13 @@ export default function Contacto() {
         }
 
         h2 {
-          margin-top: 0.1em
+          margin-top: 1em;
+          margin-bottom: 1em;
+        }
+
+        img {
+          width: 64px;
+          height: 64px
         }
 
       `}</style>
