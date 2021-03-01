@@ -45,7 +45,9 @@ body {
 
 .icon {
   display: block;
-  margin: auto;  
+  margin: auto;
+  width: 128px;
+  height: 128px;  
   padding-top: 2em;
   padding-bottom: 1.5em;
 }
