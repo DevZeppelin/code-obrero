@@ -21,9 +21,12 @@ export default function Index() {
         <img className="icon" src="static/robot.webp" alt="robot png" />
         <p>
           <strong>codeObrero</strong> es un lugar creado para todos aquellos que
-          están comenzando en el mundo de la programación. Aca encontrarás
-          consejos, recomendaciones, ideas, y un poco de compañía para que tus
-          primeros pasos en el mundo <i>dev</i> sean firmes y hacia adelante.
+          están comenzando en el mundo de la programación.
+        </p>
+        <p>
+          Aca encontrarás consejos, recomendaciones, ideas, y un poco de
+          compañía para que tus primeros pasos en el mundo <i>dev</i> sean
+          firmes y hacia adelante.
         </p>
         <p>La pregunta del millón es...</p>
         <h2>¿Realmente querés ser programador?</h2>
@@ -32,7 +35,11 @@ export default function Index() {
           mundo mágico de oportunidades espera por vos. Dejame ayudarte a{" "}
           <i>comenzar este camino</i> infinito.
         </p>
-        <img className="icon" src="static/dinosaurio.webp" alt="dinosaurio png" />
+        <img
+          className="icon"
+          src="static/dinosaurio.webp"
+          alt="dinosaurio png"
+        />
 
         <p>
           Cuando quise comenzar a estudiar <strong>programación</strong> me
@@ -49,10 +56,14 @@ export default function Index() {
         <p>
           Estoy seguro de poder ayudarte en este <b>primer pasito</b>. Una vez
           que te decidas que quieres ser progrmador, mil puertas se abrirán y tu
-          vida cambiará, porque una llama interior te hará querer{" "}
+          vida cambiará, porque una llama interior te hará querer
           <i>saber y aprender</i> cosas nuevas cada día.
         </p>
-        <img className="icon" src="static/videojuego.webp" alt="videojuego png" />
+        <img
+          className="icon"
+          src="static/videojuego.webp"
+          alt="videojuego png"
+        />
         <p>
           Quiero ser ese amigo que te dió un valioso consejo y unas palabras de
           guía. Si realmente esto es lo que querés y te gustaría ser
@@ -60,11 +71,14 @@ export default function Index() {
           tren hacia un futuro profesional y competitivo.
         </p>
         <p>
-          <b>Requisito principal:</b> Nunca dejar de aprender, no estancarse y
-          conformarse con el conocimiento obtenido. En el mundo tecnológico todo
-          cambia muy rápido y hay que estar preparados para surfear las olas del
-          cambio. El objetivo es adquirir bases sólidas que nos ayudarán a tomar
-          buenas decisiones.
+          <b>Requisito principal:</b>{" "}
+        </p>
+        <p>
+          Nunca dejar de aprender, no estancarse y conformarse con el
+          conocimiento obtenido. En el mundo tecnológico todo cambia muy rápido
+          y hay que estar preparados para surfear las olas del cambio. El
+          objetivo es adquirir bases sólidas que nos ayudarán a tomar buenas
+          decisiones.
         </p>
 
         <Link href="/primeros-pasos-dev">

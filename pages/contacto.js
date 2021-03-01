@@ -74,7 +74,7 @@ export default function Contacto() {
           margin-bottom: 1em;
         }
 
-        img {
+        a>img {
           width: 64px;
           height: 64px
         }
