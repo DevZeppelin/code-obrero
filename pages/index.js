@@ -96,8 +96,10 @@ export default function Index() {
 
         .mainTitle {
           font-family: "Fruktur", cursive;
-          font-size: 4em;
+          font-size: 5em;
           font-weight: normal;
+          -webkit-text-stroke: 2.5px black;
+          color: transparent
           
         }
 

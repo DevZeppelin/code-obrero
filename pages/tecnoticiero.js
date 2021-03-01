@@ -31,7 +31,7 @@ export default function News({ news }) {
   };
   const searchFormCoolMsg = () => (
     <form onSubmit={handleSubmit}>
-      <p>&#9889; <b>¡Esta página es súper rápida!</b> ¡Mirá este pequeño truco! Cuando escribís algo en este cuadro de texto se ve reflejado inmediatamente en el documento &#9889;</p>
+      <p className="p-cool">&#9889; <b>¡Esta página es súper rápida!</b> ¡Mirá este pequeño truco! Cuando escribís algo en este cuadro de texto se ve reflejado inmediatamente en el documento &#9889;</p>
       <div className="cool">{coolMsg}</div>
       <input
         type="text"
@@ -64,6 +64,12 @@ export default function News({ news }) {
           font-weight: 600;
           padding: 1em;
           color: var(--coral-sky);
+          
+        }
+
+        .p-cool {
+          text-align: center;
+          padding-top: 2em
           
         }
       `}</style>

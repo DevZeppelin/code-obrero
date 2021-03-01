@@ -9,7 +9,7 @@ export default function Criptomonedas() {
     >
       
       <div className="container">
-      <img className="icon" src="static/arcade.webp" alt="maquina de arcade png" />
+      <img className="icon" src="static/gafas.webp" alt="gafas lentes rosas png" />
       <nav className="secondaryNav">
         <a href="#usefulResources">
           <button>Recursos útiles</button>
@@ -30,16 +30,16 @@ export default function Criptomonedas() {
           experiencia personal en el tema.
         </p>
         <p>
-          <b>CONSEJO:</b> Si vas a invertir en el mundo Cripto debes usar dinero
+          <b>CONSEJO:</b> Si vas a invertir en el mundo de las Criptomonedas debes usar dinero
           que estés dispuesto a perder y no dinero que necesitas en el corto
           plazo.
         </p>
         <p>
-          El mundo Cripto es inmenso, interesante y es todo un cambio de
-          paradigame de como funciona el mundo financiero como lo conocíamos.
-          Hoy existen al rededor de 4000 criptomonedas alternativas a Bitcoin
+          <b>INTRODUCCIÓN:</b> El mundo Cripto es inmenso, interesante y es todo un cambio de
+          paradigame de cómo funciona el mundo financiero como lo conocemos.
+          Hoy existen alrededor de 4000 criptomonedas alternativas a Bitcoin
           conocidas como “Altcoins”, pero para comprenderlas primero necesitamos
-          saber lo básico de la criptomoneda madre, Bitcoin.
+          saber lo básico de la criptomoneda madre, <b>Bitcoin</b>.
         </p>
         <p>
           Les comparto un link de un curso gratuito para conocer desde cero lo
@@ -59,17 +59,17 @@ export default function Criptomonedas() {
           Bitcoin es una tecnología en donde todas las tranferencias de esta
           moneda quedan grabadas en una “Blockchain”, que sería como una base de
           datos gigante (50 GB aproximadamente) como si fuera una hoja de Exel
-          en donde relaciona la cantidad de la moneda con la billetera (wallet)
+          en donde se relaciona la cantidad de monedas transferidas con la billetera (wallet)
           a la que le pertenecen. Luego de 10 años en funcionamiento, Bitcoin ha
-          demostrado ser transparente, efectivo, descentralizado y anónimo.
+          demostrado ser segurro, transparente, efectivo, descentralizado y anónimo.
         </p>
         <p>
           Lo revolucionario de esto es que alguien puede tranferir por ejemplo
-          10 mil dólares de Argentina a Japón, en un muy breve tiempo, casi sin
+          U$D 10.000 de Argentina a Japón, en un muy breve tiempo, casi sin
           pagar comisión, y de forma anónima sin interferencia de ningún banco.
         </p>
         <p>
-          Lo malo de todo esto son los hackers que están a la cacería de brechas
+          <b>Lo malo:</b> Muchos hackers están a la cacería de brechas
           de seguridad, intentando todo tipo de artimañas para robar las monedas
           ajenas. Por esto es importante invertir en conocimiento y aprender
           técnicas que nos permitan cuidar nuestras monedas de la forma más
@@ -78,7 +78,7 @@ export default function Criptomonedas() {
         <p>
           Para esto existen muchos tipos de billeteras, físicas o en software,
           que nos permiten tener la custodia de nuestras llaves privadas (quien
-          tiene las llaves criptográficas tiene el poder de la moneda).
+          tiene las llaves criptográficas tiene la moneda).
         </p>
         <hr/>
         <img id="usefulResources" className="icon" src="static/dinosaurio.webp" alt="dinosaurio png" />
@@ -126,8 +126,8 @@ export default function Criptomonedas() {
               </a>
             </button>
             <p>
-              Una simple página web que nos ofrece ver de manera rápida el valor
-              actual de Bitcoin y el valor de nuestra moneda local. También
+              Ver de manera rápida el valor
+              actual de Bitcoin y de nuestra moneda local. También
               ofrece información cruzada de cotizaciones y mejores precios en
               las casas de intercambio (exchanges) más populares.
             </p>
@@ -189,7 +189,7 @@ export default function Criptomonedas() {
           cuál proyecto.
         </p>
         <hr/>
-        <img id="altcoins" className="icon" src="static/gafas.webp" alt="gafas png" />
+        <img id="altcoins" className="icon" src="static/robot.webp" alt="robot png" />
         <h1>Altcoins</h1>
         <p>
           Conociendo lo básico de Bitcoin podemos hablar de algunas de las

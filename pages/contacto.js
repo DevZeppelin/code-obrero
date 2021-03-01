@@ -15,10 +15,12 @@ export default function Contacto() {
               gino.b.pietrobon@gmail.com
             </a>
           </p>
-          <p>
-            <b>Celular: </b> +5492616708100
-          </p>
+          
           <div className="contactNetworks">
+          <a href="https://api.whatsapp.com/send?phone=5492616708100" target="_blank">
+              Whatsapp
+            </a>
+            <p>•</p>
             <a href="http://facebook.com/gini77o" target="_blank">
               Facebook
             </a>
