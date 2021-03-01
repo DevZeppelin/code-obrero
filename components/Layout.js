@@ -38,8 +38,10 @@ body {
 }
 
 .logo {
-    height: 80;
-    width: 80
+    height: 80px;
+    width: 80px;
+    padding: 10px;
+    margin-left: 10px;
 }
 
 .container {
@@ -84,11 +86,6 @@ h2 {
 h3 {
   font-size: 1.4em;
   padding-top: 16px;
-}
-
-.logo {
-  padding: 10px;
-  margin-left: 10px;
 }
 
 a {
