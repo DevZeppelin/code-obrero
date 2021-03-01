@@ -108,7 +108,7 @@ const Consejos = () => (
           lenguajes sean <b>Kotlin</b> (android) o <b>Dart</b> (Flutter)
         </li>
         <li>
-          Creo que Javascript rompe fronteras y puedes utilizarlo casi en
+          Creo que <b>Javascript</b> rompe fronteras y puedes utilizarlo casi en
           cualquier lado. Por eso también creo que es el mejor lenguaje para
           empezar ya que abre un abanico de posibilidades.
         </li>

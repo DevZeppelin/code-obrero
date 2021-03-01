@@ -18,7 +18,7 @@ const PrimerosPasosDev = () => (
       </nav>
       <p>
         Cuando comencé me sentía en una jungla. Muchos senderos en los que no
-        podía ver coon claridad. Quise hacer una aplicación, busqué tutoriales,
+        podía ver con claridad. Quise hacer una aplicación, busqué tutoriales,
         la hice, pero perdí el interés y dejé de aprender por mi cuenta. Estaba
         perdido.
       </p>

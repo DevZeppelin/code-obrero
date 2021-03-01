@@ -17,6 +17,22 @@ class MyDocument extends Document {
             name="viewport"
             content="width=device-width,minimum-scale=0.5,initial-scale=1"
           /> 
+        </Head>
+        <head>
+          <meta charSet="UTF-8" />
+          <meta
+            name="description"
+            content="Code-Obrero. Como iniciar en el mundo del desarrollo web. Un lugar para encaminarte a ser un buen programador."
+          />
+          <meta
+            name="keywords"
+            content="aprender programar javascript iniciar mundo programacion dev react next.js"
+          />
+          <meta name="author" content="Gino Pietrobon" />
+
+          <link rel="icon" href="/static/favicon.webp" />
+          <title>codeObrero</title>
+          
           <link
             href="https://fonts.googleapis.com/css2?family=Sofia&display=swap"
             rel="stylesheet"
@@ -34,21 +50,6 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
    
-        </Head>
-        <head>
-          <meta charSet="UTF-8" />
-          <meta
-            name="description"
-            content="Code-Obrero. Como iniciar en el mundo del desarrollo web. Un lugar para encaminarte a ser un buen programador."
-          />
-          <meta
-            name="keywords"
-            content="aprender programar javascript iniciar mundo programacion dev react next.js"
-          />
-          <meta name="author" content="Gino Pietrobon" />
-
-          <link rel="icon" href="/static/favicon.webp" />
-          <title>codeObrero</title>
         </head>
 
         <body>

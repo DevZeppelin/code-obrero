@@ -36,7 +36,7 @@ export default function Criptomonedas() {
         </p>
         <p>
           <b>INTRODUCCIÓN:</b> El mundo Cripto es inmenso, interesante y es todo un cambio de
-          paradigame de cómo funciona el mundo financiero como lo conocemos.
+          paradigma de cómo funciona el mundo financiero como lo conocemos.
           Hoy existen alrededor de 4000 criptomonedas alternativas a Bitcoin
           conocidas como “Altcoins”, pero para comprenderlas primero necesitamos
           saber lo básico de la criptomoneda madre, <b>Bitcoin</b>.

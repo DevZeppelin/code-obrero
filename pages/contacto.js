@@ -60,7 +60,8 @@ export default function Contacto() {
           flex-direction: row;
           justify-content: center;
           align-items: center;
-          padding-bottom: 2em
+          margin-bottom: 2em;
+          flex-wrap: wrap;          
         }
 
         .contacto a {
@@ -76,7 +77,16 @@ export default function Contacto() {
 
         a>img {
           width: 64px;
-          height: 64px
+          height: 64px; 
+        }
+
+        @media(max-width: 750px){
+          
+        a>img {
+          width: 36px;
+          height: 36px;          
+        }
+
         }
 
       `}</style>
