@@ -37,6 +37,11 @@ body {
   width: 100vw;
 }
 
+.logo {
+    height: 80;
+    width: 80
+}
+
 .container {
   display: block;
   max-width: 2400px;

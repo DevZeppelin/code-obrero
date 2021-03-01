@@ -7,17 +7,25 @@ export default function Contacto() {
       Footer={`Gino Pietrobon. Copyright ${new Date().getFullYear()}`}
     >
       <div className="container">
-      <img className="icon" src="static/videojuego.webp" alt="videojuego png" />
+        <img
+          className="icon"
+          src="static/videojuego.webp"
+          alt="videojuego png"
+        />
         <div className="contacto-main">
-          <p>
-            <b>Mail: </b>{" "}
-            <a href="mailto:gino.b.pietrobon@gmail.com">
+          <p>  
+          <h2>Mail: </h2> <a href="mailto:gino.b.pietrobon@gmail.com">
               gino.b.pietrobon@gmail.com
             </a>
           </p>
-          
+          <p>           
+            <h2>Redes: </h2>
+          </p>
           <div className="contactNetworks">
-          <a href="https://api.whatsapp.com/send?phone=5492616708100" target="_blank">
+            <a
+              href="https://api.whatsapp.com/send?phone=5492616708100"
+              target="_blank"
+            >
               Whatsapp
             </a>
             <p>•</p>
@@ -37,22 +45,27 @@ export default function Contacto() {
       </div>
 
       <style jsx>{`
-      .contacto-main {
-        text-align: center;
-      }
-      
-      .contactNetworks {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-      }
-      
-      .contacto a {
-        font-size: 1.2em;
-        margin-top: 1em;
-        margin-bottom: 1em;
-      }
+        .contacto-main {
+          text-align: center;
+        }
+
+        .contactNetworks {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .contacto a {
+          font-size: 1.2em;
+          margin-top: 0.2em;
+          margin-bottom: 1em;
+        }
+
+        h2 {
+          margin-top: 0.1em
+        }
+
       `}</style>
     </Layout>
   );

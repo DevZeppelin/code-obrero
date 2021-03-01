@@ -6,9 +6,7 @@ const Nav = () => (
       <img
         className="logo"
         src="/static/logo.webp"
-        alt="logo code-obrero"
-        height="80"
-        width="80"
+        alt="logo code-obrero"        
       />
     </Link>
 
