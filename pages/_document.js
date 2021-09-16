@@ -1,24 +1,33 @@
-import Document, { Head, Main, NextScript } from "next/document";
+import Document, { Head, Html, Main, NextScript } from "next/document";
+import { CssBaseline } from '@nextui-org/react'
 /*import { useMediaQuery } from "react-responsive";*/
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
     const initialProps = await Document.getInitialProps(ctx);
+    const styles = CssBaseline.flush()
     return { ...initialProps };
   }
 
   render() {
     /*const isMobile = useMediaQuery({ query: `(max-width: 760px)` });*/
+    
 
+    return {
+      ...initialProps,
+      styles: (
+        <>
+          {initialProps.styles}
+          {styles}
+        </>
+      ),
+    }
+  }render() {
     return (
-      <html lang="es">
+      
+      <Html lang="es">
+        
         <Head>
-          <meta
-            name="viewport"
-            content="width=device-width,minimum-scale=0.5,initial-scale=1"
-          /> 
-        </Head>
-        <head>
           <meta charSet="UTF-8" />
           <meta
             name="description"
@@ -50,13 +59,14 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
    
-        </head>
+        </Head>
 
         <body>
           <Main />
           <NextScript />
         </body>
-      </html>
+       
+      </Html>
     );
   }
 }

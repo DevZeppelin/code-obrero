@@ -1,5 +1,6 @@
 import Nav from "../components/Nav";
 
+
 const Layout = ({ ID, MainTitle, Footer, children }) => (
   <div className={ID} id={ID}>
     <Nav />
@@ -14,6 +15,7 @@ const Layout = ({ ID, MainTitle, Footer, children }) => (
         --orange-light: rgba(242, 239, 159, 1);
         --orange-hard: rgba(255, 141, 33, 1);
         --orange-medium: rgba(252, 176, 69, 1);
+        --orange-dark: #B72E00
       }
 
       * {
@@ -113,13 +115,24 @@ const Layout = ({ ID, MainTitle, Footer, children }) => (
         display: flex;
         margin-left: auto;
         margin-right: auto;
-        padding: 10px;
+        padding: 16px;
         font-size: 1.1em;
         margin-top: 50px;
         margin-bottom: 40px;
         font-weight: bold;
-        border-radius: 15px;
-        background-color: var(--orange-light);
+        border-radius: 15px;       
+        cursor: pointer;
+        background: linear-gradient(
+          90deg,
+          var(--orange-hard) 0%,
+          var(--orange-medium) 50%,
+          var(--orange-hard) 100%
+        );
+        box-shadow: 10px 5px 5px black;
+      }
+
+      button:hover {       
+        transform: scale(1.1)
       }
 
       ul,

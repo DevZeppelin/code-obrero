@@ -12,6 +12,7 @@
   "author": "Gino Pietrobon",
   "license": "ISC",
   "dependencies": {
+    "@nextui-org/react": "^1.0.1-alpha.32",
     "next": "^10.0.7",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-preset-env": "^6.7.0",
@@ -21,7 +22,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.2.4",
-    "postcss": "^8.2.6",
+    "postcss": "^8.3.6",
     "tailwindcss": "^2.0.3"
   }
 }
