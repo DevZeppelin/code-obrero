@@ -1,28 +1,14 @@
 import Document, { Head, Html, Main, NextScript } from "next/document";
-import { CssBaseline } from '@nextui-org/react'
-/*import { useMediaQuery } from "react-responsive";*/
+
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
     const initialProps = await Document.getInitialProps(ctx);
-    const styles = CssBaseline.flush()
+    
     return { ...initialProps };
   }
 
   render() {
-    /*const isMobile = useMediaQuery({ query: `(max-width: 760px)` });*/
-    
-
-    return {
-      ...initialProps,
-      styles: (
-        <>
-          {initialProps.styles}
-          {styles}
-        </>
-      ),
-    }
-  }render() {
     return (
       
       <Html lang="es">
