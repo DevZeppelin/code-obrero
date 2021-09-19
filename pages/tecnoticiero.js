@@ -31,8 +31,12 @@ export default function News({ news }) {
   };
   const searchFormCoolMsg = () => (
     <form onSubmit={handleSubmit}>
-      <p className="p-cool">&#9889; <b>¡Esta página es súper rápida!</b> ¡Mirá este pequeño truco! Cuando escribís algo en este cuadro de texto se ve reflejado inmediatamente en el documento &#9889;</p>
-      <div className="cool">{coolMsg}</div>
+      <p className="p-cool">
+        &#9889; <b>¡Esta página es súper rápida!</b> ¡Mirá este pequeño truco!
+        Cuando escribís algo en este cuadro de texto se ve reflejado
+        inmediatamente en el documento &#9889;
+      </p>
+      <p className="cool">{coolMsg}</p>
       <input
         type="text"
         placeholder="Tus letras en tiempo real"
@@ -64,22 +68,32 @@ export default function News({ news }) {
           font-weight: 600;
           padding: 1em;
           color: var(--coral-sky);
-          
         }
 
         .p-cool {
           text-align: center;
-          padding-top: 2em
-          
+          padding-top: 2em;
+        }
+
+        @media screen and (max-width: 700px) {
+          form input {
+            width: 220px;
+            font-size: 18px;
+          }
+
+          .cool {
+            max-width: 150px;
+            font-size: 1.5em;
+          }
         }
       `}</style>
-    </form>    
-  )
+    </form>
+  );
   const searchFormNews = () => (
-<form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit}>
       <h2>Buscador de noticias de Hacker News (inglés)</h2>
       <p>
-       ¿De qué tema queres tener <b>noticias</b>?
+        ¿De qué tema queres tener <b>noticias</b>?
       </p>
       <input
         className="input-tec"
@@ -105,7 +119,21 @@ export default function News({ news }) {
 
         form button {
           margin-top: 0.75em;
-              }
+        }
+
+        @media screen and (max-width: 700px) {
+          form input {
+            margin: 10px;
+            height: 28px;
+            width: 150px;
+            font-size: 22px;
+          }
+
+          h2 {
+            font-size: 24px
+          }
+        }
+
       `}</style>
     </form>
   );
@@ -120,7 +148,7 @@ export default function News({ news }) {
     >
       <div>
         <div className="container">
-        <img className="icon" src="static/tv.webp" alt="tv png" />
+          <img className="icon" src="static/tv.webp" alt="tv png" />
           {searchFormNews()}
           <hr />
 
@@ -138,15 +166,24 @@ export default function News({ news }) {
         </div>
         <style jsx>{`
           a {
-           display: flex;
-           text-align: left
+            display: flex;
+            text-align: left;
           }
-          `}</style>
+
+          @media screen and (max-width: 700px) {
+            p {
+              font-size: 14px;
+            }
+
+            input {
+            }
+          }
+        `}</style>
       </div>
-      
+
       <a href="#nav-container">
-          <button>Ir arriba!</button>
-        </a>
+        <button>Ir arriba!</button>
+      </a>
     </Layout>
   );
 }

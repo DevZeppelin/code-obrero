@@ -264,6 +264,20 @@ export default function Criptomonedas() {
           padding: 10px;
           text-align: center
         }
+
+        @media screen and (max-width: 700px) {
+          .recursos-utiles {
+            display: flex;
+            flex-direction: column
+          }
+
+          .secondaryNav {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 10px
+          }
+        }
       `}</style>
     </Layout>
   );

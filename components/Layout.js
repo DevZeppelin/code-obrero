@@ -15,7 +15,7 @@ const Layout = ({ ID, MainTitle, Footer, children }) => (
         --orange-light: rgba(242, 239, 159, 1);
         --orange-hard: rgba(255, 141, 33, 1);
         --orange-medium: rgba(252, 176, 69, 1);
-        --orange-dark: #B72E00
+        --orange-dark: #FF5D00
       }
 
       * {
@@ -129,10 +129,18 @@ const Layout = ({ ID, MainTitle, Footer, children }) => (
           var(--orange-hard) 100%
         );
         box-shadow: 10px 5px 5px black;
+        color: black
       }
 
       button:hover {       
-        transform: scale(1.1)
+        transform: scale(1.1);
+        background: linear-gradient(
+          90deg,
+          var(--orange-medium) 0%,
+          var(--orange-dark) 50%,
+          var(--orange-medium) 100%
+        );
+        transition-duration: 500ms;
       }
 
       ul,
@@ -157,22 +165,35 @@ const Layout = ({ ID, MainTitle, Footer, children }) => (
         }
 
         h1 {
-          font-size: 2.7em;
+          font-size: 2em;
         }
 
         h2 {
-          font-size: 2.3em;
+          font-size: 1.8em;
         }
         h3 {
-          font-size: 1.9em;
+          font-size: 1.6em;
           text-align: left;
         }
         p {
-          font-size: 1.6em;
+          font-size: 1.1em;
         }
 
         li {
-          font-size: 1.5em;
+          font-size: 1em;
+        }
+
+        button {
+          padding: 12px;
+          font-size: 16px
+        }
+
+        .contact-mail {
+          font-size: 16px
+        }
+
+        .contactNetworks p {
+          display: none
         }
       }
     `}</style>

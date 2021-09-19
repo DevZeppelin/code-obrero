@@ -123,10 +123,18 @@ export default function Index() {
         }
 
           h4 {
-            font-size: 1.8em
+            font-size: 1.2em            
+          }
+
+          .mainTitle {
+            
+            font-size: 3.5em;
+            -webkit-text-stroke: 1px black;
             
             
           }
+
+         
       `}</style>
     </Layout>
   );

@@ -22,50 +22,88 @@ return (
           alt="logo code-obrero"
         />
       </Link>
-      <span>•</span>
-      <Link href="/primeros-pasos-dev">
-        <a>1ros pasos</a>
-      </Link>
-      <span>•</span>
-      <Link href="/consejos">
-        <a>Consejos</a>
-      </Link>
-      <span>•</span>
-      <Link href="/blog">
-        <a>Blog</a>
-      </Link>
-      <span>•</span>
-      <Link href="/criptomonedas">
-        <a>Criptos</a>
-      </Link>
-      <span>•</span>
-      <Link href="/tecnoticiero">
-        <a>News</a>
-      </Link>
-      <span>•</span>
-      <Link href="/acerca-de">
-        <a>About</a>
-      </Link>
-      <span>•</span>
-      <Link href="/contacto">
-        <a>Contacto</a>
-      </Link>
+      <div className="nav-titles">
+        <span>•</span>
+        <Link href="/primeros-pasos-dev">
+          <a>1ros pasos</a>
+        </Link>
+        <span>•</span>
+        <Link href="/consejos">
+          <a>Consejos</a>
+        </Link>
+        <span>•</span>
+        <a target="_blank" rel="noopener" href="https://moonblog.ar">
+          Blog
+        </a>
+        <span>•</span>
+        <Link href="/criptomonedas">
+          <a>Criptos</a>
+        </Link>
+        <span>•</span>
+        <Link href="/tecnoticiero">
+          <a>News</a>
+        </Link>
+        <span>•</span>
+        <Link href="/acerca-de">
+          <a>About</a>
+        </Link>
+        <span>•</span>
+        <Link href="/contacto">
+          <a>Contacto</a>
+        </Link>
+      </div>
     
 
-    {/* <div className="p-2 ml-2 md:hidden flex justify-start w-10 text-4xl">
-        <button
-          onClick={toggleNav}
-          aria-label="Hamburguer Button of Main Content"
-        >
-          <GiHamburgerMenu />
-        </button>
-      </div> */}
+     <div>
+       <div className="hamburguer-icon" >
+          <button
+            onClick={toggleNav}
+            aria-label="Hamburguer Button of Main Content"
+          >
+            <GiHamburgerMenu />
+          </button>
+        </div>
+        <div className="nav-titles-mobile" style={{ display: open ? "flex" : "none" }}>
+       
+          <Link href="/primeros-pasos-dev">
+            <a>1ros pasos</a>
+          </Link>
+          
+          <Link href="/consejos">
+            <a>Consejos</a>
+          </Link>
+         
+          <a target="_blank" rel="noopener" href="https://moonblog.ar">
+            Blog
+          </a>
+         
+          <Link href="/criptomonedas">
+            <a>Criptos</a>
+          </Link>
+         
+          <Link href="/tecnoticiero">
+            <a>News</a>
+          </Link>
+          
+          <Link href="/acerca-de">
+            <a>About</a>
+          </Link>
+          
+          <Link href="/contacto">
+            <a>Contacto</a>
+          </Link>
+        </div>
+     </div>
     <style jsx>{`
+
+    .logo {
+      cursor: pointer
+    }
       .nav-container {
         display: flex;
         align-items: center;
         list-style: none;
-        /*padding: 0;
+          /*padding: 0;
           margin: 0;
           display: grid;
           grid-auto-columns: 100px;
@@ -76,6 +114,45 @@ return (
       .nav-container a {
         font-family: "Rokkitt", serif;
       }
+
+      .hamburguer-icon {
+        
+        padding-right: 40px;
+        font-size: 22px;        
+        display: none
+       }
+
+       .nav-titles-mobile {
+         display: none;         
+       }
+
+       @media screen and (max-width: 700px) {
+
+        .nav-container {
+          justify-content: space-between
+        }
+        
+        .hamburguer-icon {
+          display: flex;          
+        }
+        .nav-titles {
+          display:none
+        }
+        
+        .nav-titles-mobile {         
+          position: absolute;
+          right: 0;          
+          flex-direction: column;
+          padding: 10px;
+          margin-right: 10px;
+          background: var(--orange-hard);
+          border-radius: 10px;
+          border: 2px solid black
+
+        } 
+
+        
+       }
       
     `}</style>
   </div>
