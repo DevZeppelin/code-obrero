@@ -191,10 +191,7 @@ const Layout = ({ ID, MainTitle, Footer, children }) => (
         .contact-mail {
           font-size: 16px
         }
-
-        .contactNetworks p {
-          display: none
-        }
+        
       }
     `}</style>
   </div>

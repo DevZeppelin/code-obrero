@@ -83,11 +83,13 @@ export default function Contacto() {
           height: 64px;
         }
 
-        @media (max-width: 750px) {
-          a > img {
-            width: 36px;
-            height: 36px;
+        @media screen and (max-width: 750px) {
+
+          .contactNetworks p {
+            display: none
           }
+
+          
         }
       `}</style>
     </Layout>

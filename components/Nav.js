@@ -37,7 +37,7 @@ return (
         </a>
         <span>•</span>
         <Link href="/criptomonedas">
-          <a>Criptos</a>
+          <a>Criptomonedas</a>
         </Link>
         <span>•</span>
         <Link href="/tecnoticiero">
@@ -66,31 +66,31 @@ return (
         <div className="nav-titles-mobile" style={{ display: open ? "flex" : "none" }}>
        
           <Link href="/primeros-pasos-dev">
-            <a>1ros pasos</a>
+            <a>👆 1ros pasos</a>
           </Link>
           
           <Link href="/consejos">
-            <a>Consejos</a>
+            <a>🗣 Consejos</a>
           </Link>
          
           <a target="_blank" rel="noopener" href="https://moonblog.ar">
-            Blog
+          🙉 Blog
           </a>
          
           <Link href="/criptomonedas">
-            <a>Criptos</a>
+            <a>💎 Criptomonedas</a>
           </Link>
          
           <Link href="/tecnoticiero">
-            <a>News</a>
+            <a>📺 News</a>
           </Link>
           
           <Link href="/acerca-de">
-            <a>About</a>
+            <a>❔ About</a>
           </Link>
           
           <Link href="/contacto">
-            <a>Contacto</a>
+            <a>📬 Contacto</a>
           </Link>
         </div>
      </div>
